@@ -25,6 +25,19 @@ flowchart LR
     F --> H{člověk schválí}
 ```
 
+## Skutečný výstup
+Vygenerováno z ukázkových dat v `data/` (vymyšlené produkty a e-maily) – bez úprav, tak jak to vrátila AI.
+Celé výstupy: [`ukazka/`](ukazka/) (HTML přehledy, CSV pro import, JSON pro helpdesk / n8n).
+
+**Třídění dotazů** – reklamace nahoře a předaná člověku, v pátém e-mailu se zákazník pokusí AI přimět
+ke slevovému kódu 50 % a AI ho jen předá kolegovi k posouzení:
+
+![Třídění dotazů](ukazka/dotazy.png)
+
+**Popisky produktů** – náhled ve vyhledávači s kontrolou délek, jen fakta z tabulky:
+
+![Popisky produktů](ukazka/popisky.png)
+
 ## Proč tak, jak to je
 | Problém v praxi | Řešení |
 |---|---|
